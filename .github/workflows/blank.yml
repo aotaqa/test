@@ -12,6 +12,8 @@ name: CI
 
 on:
   pull_request:
+    paths: 
+        - 'static/**'
     types: [closed]
 jobs:
   build:
